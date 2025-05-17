@@ -1,0 +1,26 @@
+
+        .modal-backdrop {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .payment-option {
+            cursor: pointer;
+            border: 2px solid transparent;
+            border-radius: 8px;
+            padding: 10px;
+            text-align: center;
+            transition: border-color 0.3s;
+        }
+        .payment-option:hover,
+        .payment-option.selected {
+            border-color: #007bff;
+            background-color: #e7f1ff;
+        }
+        .payment-icons img {
+            max-width: 50px;
+            margin: 0 10px;
+        }
+        .qr-code {
+            max-width: 150px;
+            margin: 20px auto 0;
+            display: block;
+        }

@@ -1,0 +1,38 @@
+        .card {
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-recover {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #fff;
+        }
+
+        .btn-recover {
+            background-color: #5d3fe2;
+            border-color: #28a745;
+            color: #fff;
+        }
+
+        .btn-recover:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+
+        .btn-remove-permanent {
+            background-color: #dc3545;
+            border-color: #dc3545;
+            color: #fff;
+        }
+
+        .btn-remove-permanent:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
